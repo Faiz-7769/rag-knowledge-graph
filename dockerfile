@@ -2,29 +2,13 @@ FROM python:3.10-slim
 
 WORKDIR /code
 
-# Environment variables for HF Spaces
-ENV CHAINLIT_HOST=0.0.0.0
-ENV CHAINLIT_PORT=7860
-ENV CHAINLIT_TELEMETRY=false
-ENV PYTHONUNBUFFERED=1
+# 1. Install requirements
+COPY ./requirements.txt /code/requirements.txt
+RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
-# Install system dependencies (optional but safe)
-RUN apt-get update && apt-get install -y \
-    build-essential \
-    && rm -rf /var/lib/apt/lists/*
-
-# Install Python dependencies
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Copy app code
+# 2. Copy code and fix permissions
 COPY . .
+RUN mkdir -p /.chainlit && chmod 777 /.chainlit
 
-# Fix Chainlit permissions (HF Spaces requirement)
-RUN mkdir -p /.chainlit && chmod -R 777 /.chainlit
-
-# Expose HF default port
-EXPOSE 7860
-
-# Start Chainlit
-CMD ["chainlit", "run", "app.py", "--watch"]
+# 3. CRITICAL: Use the exact host and port settings
+CMD ["chainlit", "run", "app.py", "--host", "0.0.0.0", "--port", "7860"]
