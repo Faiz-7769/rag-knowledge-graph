@@ -27,4 +27,4 @@ RUN mkdir -p /.chainlit && chmod -R 777 /.chainlit
 EXPOSE 7860
 
 # Start Chainlit
-CMD ["chainlit", "run", "app.py", "--watch", "false"]
+CMD ["chainlit", "run", "app.py", "--watch"]
