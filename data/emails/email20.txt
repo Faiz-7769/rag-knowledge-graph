@@ -1,0 +1,13 @@
+From: support@shopcart.com  
+To: customer20@example.com  
+Date: 2024-10-22  
+Subject: Apology for Order Delay – Order #SC10241
+
+Dear Customer,
+
+We sincerely apologize for the delay in delivering your order **#SC10241**.
+
+Our team is working to resolve the issue and will update you shortly.
+
+Thank you for your patience,  
+ShopCart Support Team

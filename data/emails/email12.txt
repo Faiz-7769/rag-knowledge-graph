@@ -1,0 +1,13 @@
+From: no-reply@shopcart.com  
+To: customer12@example.com  
+Date: 2024-10-14  
+Subject: Verify Your ShopCart Account
+
+Hello,
+
+Please verify your ShopCart account by clicking the verification link provided.
+
+This helps us keep your account secure.
+
+Thank you,  
+ShopCart Team

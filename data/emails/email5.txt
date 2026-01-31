@@ -1,0 +1,16 @@
+From: billing@shopcart.com  
+To: customer5@example.com  
+Date: 2024-10-07  
+Subject: Refund Processed – Order #SC10238
+
+Dear Customer,
+
+Your refund for order **#SC10238** has been successfully processed.
+
+**Refund Amount:** $49.99  
+**Refund Method:** Original payment method
+
+The amount will reflect in your account within 5–7 business days.
+
+Regards,  
+ShopCart Finance Team

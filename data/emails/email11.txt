@@ -1,0 +1,13 @@
+From: billing@shopcart.com  
+To: customer11@example.com  
+Date: 2024-10-13  
+Subject: Invoice for Order #SC10240
+
+Dear Customer,
+
+Please find the attached invoice for your recent purchase **#SC10240**.
+
+If you have billing-related queries, feel free to reach out.
+
+Regards,  
+ShopCart Billing Team

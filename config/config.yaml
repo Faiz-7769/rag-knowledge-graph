@@ -1,0 +1,56 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  email_dir: data/emails
+  pdf_dir: data/pdf
+  csv_dir: data/spreadsheets
+  db_path: data/sql/small.db
+  output_json: artifacts/data_ingestion/output.json
+
+data_transformation:
+  input_json: artifacts/data_ingestion/output.json
+
+  entities_output: artifacts/data_transformation/entities.json
+  relationships_output: artifacts/data_transformation/relationships.json
+  triples_output: artifacts/data_transformation/triples.json
+
+  neo4j:
+    uri: ""
+    username: neo4j
+    password: ""
+
+embedding_pipeline:
+  input_json: artifacts/data_ingestion/output.json
+
+  chunking:
+    chunk_size: 100
+    chunk_overlap: 40
+
+  embedding_model:
+    name: sentence-transformers/all-MiniLM-L6-v2
+    embedding_dim: 384
+
+  vector_store:
+    type: faiss
+    index_type: IndexFlatL2
+    index_path: artifacts/embeddings/faiss.index
+    metadata_path: artifacts/embeddings/metadata.json
+
+rag:
+  input_json: artifacts/data_ingestion/output.json
+  faiss:
+    index_path: artifacts/embeddings/faiss.index
+    metadata_path: artifacts/embeddings/metadata.json
+    top_k: 5
+
+  neo4j:
+    uri: ""
+    username: neo4j
+    password: ""
+
+  llm:
+    provider: groq
+    model: llama-3.1-8b-instant
+    temperature: 0.35
+    max_tokens: 1024

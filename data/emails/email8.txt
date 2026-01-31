@@ -1,0 +1,14 @@
+From: security@shopcart.com  
+To: customer8@example.com  
+Date: 2024-10-10  
+Subject: Password Reset Request
+
+Hello,
+
+A request was received to reset your ShopCart account password.
+
+If this was you, please proceed using the secure link provided.  
+If not, please contact support immediately.
+
+Regards,  
+ShopCart Security Team

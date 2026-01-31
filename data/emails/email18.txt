@@ -1,0 +1,13 @@
+From: billing@shopcart.com  
+To: customer18@example.com  
+Date: 2024-10-20  
+Subject: Subscription Renewal Reminder
+
+Hello,
+
+Your ShopCart Plus subscription is due for renewal on 25 October 2024.
+
+Please ensure your payment details are up to date.
+
+Regards,  
+ShopCart Subscriptions Team

@@ -1,0 +1,13 @@
+From: security@shopcart.com  
+To: customer19@example.com  
+Date: 2024-10-21  
+Subject: Suspicious Activity Detected
+
+Dear Customer,
+
+We detected suspicious activity on your ShopCart account.
+
+Please review recent activity and contact support immediately if this was not you.
+
+Regards,  
+ShopCart Security Team

@@ -1,0 +1,16 @@
+From: shipping@shopcart.com  
+To: customer2@example.com  
+Date: 2024-10-02  
+Subject: Your Order Has Been Shipped – Order #SC10235
+
+Hello,
+
+We are happy to inform you that your order **#SC10235** has been shipped.
+
+**Carrier:** FedEx  
+**Expected Delivery:** 3–5 business days
+
+Track your order using the tracking link provided in your account.
+
+Best regards,  
+ShopCart Shipping Team

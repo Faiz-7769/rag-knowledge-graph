@@ -1,0 +1,13 @@
+From: tech@shopcart.com  
+To: customers@shopcart.com  
+Date: 2024-10-17  
+Subject: Scheduled Maintenance Notice
+
+Dear Users,
+
+ShopCart services will be unavailable on Sunday from 1 AM to 3 AM due to scheduled maintenance.
+
+We apologize for any inconvenience.
+
+Regards,  
+ShopCart Technical Team

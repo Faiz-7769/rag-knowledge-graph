@@ -1,0 +1,13 @@
+From: procurement@shopcart.com  
+To: supplier@vendor.com  
+Date: 2024-10-16  
+Subject: Purchase Order Confirmation
+
+Hello,
+
+This email confirms the purchase order for 500 units of wireless chargers.
+
+Expected delivery date: 25 October 2024.
+
+Regards,  
+ShopCart Procurement Team

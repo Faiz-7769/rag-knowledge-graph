@@ -1,0 +1,8 @@
+venv/
+artifacts/
+__pycache__/
+logs/
+.env
+.chainlit/
+.deepeval/
+

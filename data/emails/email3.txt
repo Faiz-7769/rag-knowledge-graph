@@ -1,0 +1,15 @@
+From: shipping@shopcart.com  
+To: customer3@example.com  
+Date: 2024-10-05  
+Subject: Order Delivered – Order #SC10236
+
+Dear Customer,
+
+This email confirms that your order **#SC10236** has been successfully delivered.
+
+If you have any issues with the product, please contact our support team.
+
+Thank you for choosing ShopCart.
+
+Sincerely,  
+ShopCart Support

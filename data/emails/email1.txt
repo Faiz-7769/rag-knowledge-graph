@@ -1,0 +1,19 @@
+From: orders@shopcart.com  
+To: customer1@example.com  
+Date: 2024-10-01  
+Subject: Order Confirmation – Order #SC10234
+
+Dear Customer,
+
+Thank you for shopping with ShopCart.  
+Your order **#SC10234** has been successfully placed.
+
+**Order Summary:**
+- Product: Wireless Headphones
+- Quantity: 1
+- Total Amount: $79.99
+
+You will receive a shipping confirmation once your order is dispatched.
+
+Regards,  
+ShopCart Orders Team

@@ -1,0 +1,13 @@
+From: rewards@shopcart.com  
+To: customer17@example.com  
+Date: 2024-10-19  
+Subject: Loyalty Points Earned
+
+Dear Customer,
+
+You have earned **150 loyalty points** on your recent purchase.
+
+Redeem your points on your next order.
+
+Regards,  
+ShopCart Rewards Team

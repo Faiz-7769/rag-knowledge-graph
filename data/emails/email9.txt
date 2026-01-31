@@ -1,0 +1,13 @@
+From: marketing@shopcart.com  
+To: customer9@example.com  
+Date: 2024-10-11  
+Subject: Exclusive Offer – 20% Off This Weekend
+
+Dear Customer,
+
+Enjoy an exclusive **20% discount** on selected products this weekend.
+
+Use promo code **SHOP20** at checkout.
+
+Happy shopping,  
+ShopCart Marketing Team

@@ -1,0 +1,13 @@
+From: billing@shopcart.com  
+To: customer4@example.com  
+Date: 2024-10-06  
+Subject: Payment Failed for Order #SC10237
+
+Hello,
+
+We were unable to process the payment for your order **#SC10237** due to a transaction failure.
+
+Please update your payment details to avoid order cancellation.
+
+Regards,  
+ShopCart Billing Team

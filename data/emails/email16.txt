@@ -1,0 +1,13 @@
+From: feedback@shopcart.com  
+To: customer16@example.com  
+Date: 2024-10-18  
+Subject: Share Your Shopping Experience
+
+Hello,
+
+We value your feedback. Please take a moment to rate your recent purchase experience.
+
+Your feedback helps us improve our services.
+
+Thank you,  
+ShopCart Team

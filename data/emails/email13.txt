@@ -1,0 +1,13 @@
+From: logistics@shopcart.com  
+To: warehouse@shopcart.com  
+Date: 2024-10-15  
+Subject: Inventory Restock Schedule
+
+Team,
+
+The inventory restock for electronics is scheduled for next Monday.
+
+Please ensure warehouse readiness and update stock records accordingly.
+
+Regards,  
+Logistics Manager

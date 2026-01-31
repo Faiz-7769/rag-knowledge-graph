@@ -1,0 +1,13 @@
+From: marketing@shopcart.com  
+To: customer10@example.com  
+Date: 2024-10-12  
+Subject: New Arrivals Now Available at ShopCart
+
+Hello,
+
+We are excited to introduce our latest collection of smart home devices.
+
+Visit ShopCart today to explore new arrivals.
+
+Best regards,  
+ShopCart Product Team

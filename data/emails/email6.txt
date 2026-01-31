@@ -1,0 +1,13 @@
+From: orders@shopcart.com  
+To: customer6@example.com  
+Date: 2024-10-08  
+Subject: Order Cancellation Confirmation – Order #SC10239
+
+Hello,
+
+Your request to cancel order **#SC10239** has been completed.
+
+If you have already been charged, a refund will be initiated shortly.
+
+Best regards,  
+ShopCart Orders Team

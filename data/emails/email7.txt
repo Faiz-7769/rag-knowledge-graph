@@ -1,0 +1,15 @@
+From: support@shopcart.com  
+To: customer7@example.com  
+Date: 2024-10-09  
+Subject: Follow-up on Your Support Request
+
+Dear Customer,
+
+We are following up on your recent support request regarding delayed delivery.
+
+Our logistics team is investigating the issue and will update you shortly.
+
+Thank you for your patience.
+
+Regards,  
+ShopCart Support Team
