@@ -8,6 +8,7 @@ from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
+from langchain_core.runnables import RunnableParallel, RunnablePassthrough
 import spacy
 
 from src.knowledge_graph.components.data_retriever import HybridRetriever
@@ -69,11 +70,23 @@ class RAGPipeline:
             """
             prompt = ChatPromptTemplate.from_template(template)
 
+            setup_and_retrieval = RunnableParallel(
+            {"context": retriever, "question": RunnablePassthrough()}
+            )
+
+            answer_generation = (
+            prompt 
+            | llm 
+            | StrOutputParser()
+            )
+
+        # Step C: Combine them so we return BOTH the Answer AND the Original Context
             chain = (
-                {"context": retriever, "question": RunnablePassthrough()}
-                | prompt
-                | llm
-                | StrOutputParser()
+            setup_and_retrieval
+            |  RunnableParallel({
+                "result": answer_generation,          # The Text Answer
+                "source_documents": lambda x: x["context"] # The Original Docs (Preserved!)
+            })
             )
             logger.info("RAG Chain created successfully")
             return chain
