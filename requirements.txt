@@ -1,35 +1,22 @@
+# Core App
+chainlit
+python-dotenv
 pandas
 numpy
-PyYAML
-pathlib
-ipykernel
-notebook
-python-box
-ensure
-spacy
-neo4j
+
+# AI & Logic
+langchain
+langchain-community
+langchain-core
+langchain-groq
+langchain-huggingface
 sentence-transformers
+spacy
+
+# Database & Vector Store
+neo4j
 faiss-cpu
-google-generativeai
 pypdf
 
-# LangChain RAG Stack
-langchain
-langchain-core
-langchain-community
-langchain-text-splitters
-langchain-huggingface
-tiktoken
-langchain-groq
-# Additional dependencies for enhanced RAG
-python-dotenv
-
-
-chainlit
-
-#evaluation
-deepeval
-datasets
-
-# for spacy streamlit integration
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz#egg=en_core_web_sm
+# Fix for potential dependency issues
+protobuf
